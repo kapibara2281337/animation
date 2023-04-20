@@ -1,0 +1,63 @@
+*{
+    font-family: monospace;
+    font-size: 18px;
+  
+  }
+.content_cirkle{
+width: 100px;
+height: 100px;
+background-color: #000000;
+border: 15px;
+border-color: rgb(255, 255, 255);
+position: relative;
+left: 0%;
+
+animation-name: white-cirkle;
+animation-duration: 6s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+  }
+
+  @keyframes white-cirkle{
+    0%{
+transform: translate(0%);
+animation-duration: 6s;
+
+    }
+    10%{
+        transform: translatex(500px);
+        animation-duration: 6s;
+
+    }
+    20%{
+        transform: translate(500px, 250px);
+        animation-duration: 6s;
+
+    }
+    30%{
+        transform: translate(1000px, 250px);
+        animation-duration: 6s;
+
+
+    }
+    40%{
+        transform: translate(1000px, 600px);
+        animation-duration: 6s;
+
+    }
+    50%{
+        transform: translate(800px, 600px);
+        animation-duration: 6s;
+
+    }
+    60%{
+        transform: translate(500px, 500px);
+        animation-duration: 6s;
+
+    }
+    70%{
+        transform: translate(500px, 500px);
+        animation-duration: 6s;
+
+    }
+}
